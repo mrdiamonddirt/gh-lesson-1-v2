@@ -28,33 +28,52 @@
 }
 
 /* =================== feature/content_section ==================== */
-
 .section-middle {
     height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
     background-color: blueviolet;
 }
-
 .container-middle-upper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 30vh;
 }
 
 .container-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     width: 30vw;
 }
 
 .container-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     width: 20vw;
 }
 
 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1.5rem;
     height: 60%;
     text-align: center;
 }
 
 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     width: 100%;
     object-fit: contain;
